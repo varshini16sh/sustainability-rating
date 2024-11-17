@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 
-model = joblib.load("C:\\Users\\vaish\\Downloads\\sustainability_rating_PKL.pkl")
+model = joblib.load("sustainability_rating_PKL.pkl")
 
 
 class PredictionRequest(BaseModel):
