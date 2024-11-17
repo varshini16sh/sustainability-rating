@@ -28,7 +28,7 @@ function App() {
     e.preventDefault();
     setError(null); // Reset error state
     try {
-      const response = await fetch('http://localhost:8001/predict', {
+      const response = await fetch('https://sustainability-rating-25pu.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
